@@ -1,0 +1,5 @@
+instagram-clone/
+├── client/        ← React frontend
+├── server/        ← Express backend
+├── .env.example   ← example env file
+├── README.md
