@@ -1,3 +1,4 @@
+import Navbar from './components/Navbar';
 import CreatePost from './pages/CreatePost';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -9,6 +10,7 @@ import Feed from './pages/Feed';
 function App() {
   return (
     <Router>
+    <Navbar />
       <Routes>
         <Route path="/" element={<Feed />} />
         <Route path="/login" element={<Login />} />
