@@ -1,3 +1,4 @@
+import CreatePost from './pages/CreatePost';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -12,6 +13,8 @@ function App() {
         <Route path="/" element={<Feed />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+       <Route path="/create-post" element={<CreatePost />} />
+
       </Routes>
     </Router>
   );
